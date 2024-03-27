@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #e2e2e2;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    padding: 10px 10px 50px 10px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact {
+    flex: 2;
+}
+
+.body_section {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_section {
+    flex: 2;
+    display: flex;
+    justify-content: end;
+}
+
+/* ############################## BODY LAYER (MIDDLE SECTION) ######################## */
+
+
+/* ********* CARD 1 ************ */
+.objective {
+    height: 340px;
+    width: 600px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    line-height: 2;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.objective h1 {
+    color: #bb86fc;
+    font-size: 40px;
+}
+
+
+/* *********** Card 2 *********** */
+.proficiency {
+    height: 310px;
+    width: 600px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.proficiency h1 {
+    color: #bb86fc;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.proficiency table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    color: #bb86fc;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+tr {
+    text-align: center;
+    height: 30px;
+}
+
+/* ************** Card 3 ************ */
+
+.projects {
+    height: 400px;
+    width: 600px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.projects h1 {
+    color: #bb86fc;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #555555;;
+    margin: 1em 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+.tools_used {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.tools_used div {
+    background-color: #cba3fc7a;
+    color: #fff;
+    min-width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.project_one h4, .project_two h4 a, .project_three h4 a{
+    font-size: 22px;
+    color: #bb86fc;
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.project_two h4, .project_three h4 {
+    margin-bottom: 10px;
+}
+
+.project_two h4 a:hover, .project_three h4 a:hover  {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/*  ############################## PROFILE CARD (LEFT SECTION) ######################## */
+.profile_card { 
+    width: 100%;
+    height: 350px;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.profile_card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile_card h1 {
+    font-size: 30px;
+    color: #e2e2e2;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    
+}
+
+.profile_card h3 {
+    font-size: 22px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.social_links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.social_links i {
+    font-size: 25px;
+    color: grey;
+}
+
+.social_links i:hover {
+    font-size: 25px;
+    color: #bb86fc;
+    cursor: pointer;
+}
+
+#dowload_cv {
+    height: 40px;
+    min-width: 150px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #555555;
+    padding: 5px;
+    color: gray;
+}
+
+#dowload_cv:hover {
+    cursor: pointer;
+    border: 2px solid #bb86fc;
+    color: #fff;
+    background-color: #bb86fc;
+}
+
+
+/* ##################### CONTACT SECTION (RIGHT SIDE) ################# */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_form {
+    width: 88%;
+    min-height: 460px;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact_form h1 {
+    color: #bb86fc;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact_form form input {
+    height: 40px;
+    background-color: #555555;
+    color: #e2e2e2;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.contact_form form input:focus {
+    outline: none;
+    border: 1px solid #bb86fc;
+    /* background-color: #bb86fc; */
+}
+
+.contact_form form textarea {
+    background-color: #555555;
+    color: #e2e2e2;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+.contact form textarea:focus {
+    outline: none;
+    border: 1px solid #bb86fc;
+
+}
+
+.contact_form form button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #555555;
+    padding: 5px;
+    color: gray;
+    margin: auto;
+}
+
+.contact_form form button:hover {
+    cursor: pointer;
+    border: 2px solid #bb86fc;
+    color: #fff;
+    background-color: #bb86fc;
+}
+
+
+
+
+/* ################## SCROLL BAR #################### */
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bb86fc;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: purple;
+  }
+
+
+  /* ############### MEDIA QUERIES ############# */
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* ################ PROFILE SECTION ################## */
+
+    .profile_section {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .profile_card { 
+        width: 100%;
+        height: 350px;
+    }
+
+
+    /* ################# BODY SECTION ################## */
+    .body_section {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .objective {
+        min-height: 480px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .objective h1 {
+        color: #bb86fc;
+        font-size: 30px;
+    }
+
+    .proficiency {
+        min-height: 400px;
+        width: 100%;
+    }
+
+
+    .proficiency h1 {
+        font-size: 30px;
+    }
+
+    .projects {
+        min-height: 500px;
+        width: 100%;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    th {
+        color: #bb86fc;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    
+    tr {
+        height: 35px;
+    }
+
+    .tools_used {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* ############ CONTACT PAGE ############# */
+
+    .contact {
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+        height: 500px;
+        
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* ################ PROFILE SECTION ################## */
+
+    .profile_section {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .profile_card { 
+        width: 100%;
+        height: 350px;
+    }
+
+
+    /* ################# BODY SECTION ################## */
+    .body_section {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .objective {
+        min-height: 290px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .objective h1 {
+        color: #bb86fc;
+        font-size: 30px;
+    }
+
+    .proficiency {
+        min-height: 400px;
+        width: 100%;
+    }
+
+
+    .proficiency h1 {
+        font-size: 30px;
+    }
+
+    .projects {
+        min-height: 500px;
+        width: 100%;
+    }
+
+    .projects h1 {
+        font-size: 30px;
+    }
+
+    th {
+        color: #bb86fc;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    
+    tr {
+        height: 35px;
+    }
+
+    .tools_used {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* ############ CONTACT PAGE ############# */
+
+    .contact {
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .contact_form {
+        width: 100%;
+        height: 500px;
+        
+    }
+
+}
+
+/* Medium devices (landscape tablets, between 768px and 992px) */
+@media only screen and (min-width: 768px)   {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
