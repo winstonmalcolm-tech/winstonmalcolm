@@ -137,7 +137,7 @@ hr {
     padding: 5px;
 }
 
-.project_one h4, .project_two h4 a, .project_three h4 a{
+.project_one h4, .project_two h4, .project_three h4 a{
     font-size: 22px;
     color: #bb86fc;
     margin-bottom: 10px; 
@@ -152,7 +152,6 @@ hr {
     text-decoration: underline;
     cursor: pointer;
 }
-
 
 
 /*  ############################## PROFILE CARD (LEFT SECTION) ######################## */
