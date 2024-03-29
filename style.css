@@ -148,7 +148,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.project_two h4 a:hover, .project_three h4 a:hover  {
+.project_three h4 a:hover  {
     text-decoration: underline;
     cursor: pointer;
 }
